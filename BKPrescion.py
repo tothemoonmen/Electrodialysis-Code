@@ -1,14 +1,5 @@
-import pyvisa
-import pandas as pd
-import openpyxl
-from datetime import datetime
-import xlrd
-import time
 
-from openpyxl import load_workbook
-from openpyxl import Workbook, load_workbook
-
-import Conductivity7
+import Conductivity
 import PH
 import Temperature
 from Graph import LivePlotter
